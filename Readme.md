@@ -1,1 +1,1 @@
-## This is officially Fumaswap project for Cor... in Fiverr maded by Manfromearth25!!
+## This is officially Fumaswap project.
