@@ -21,24 +21,25 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <PageMeta />            
+      <PageMeta />  
+       <PageSection
+        innerProps={{ style: HomeSectionContainerStyles }}        
+        background="linear-gradient(180deg, #7645D9 0%, #5121B1 100%)" 
+        index={2}
+        hasCurvedDivider={false}
+      >        
+      </PageSection>
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
-        background="linear-gradient(180deg, #7645D9 0%, #5121B1 100%)"        
+        background={theme.colors.background}       
         index={2}
         hasCurvedDivider={false}
       >
         <SalesSection {...cakeSectionData(t)} />
         <CakeDataRow />
-      </PageSection>
-      <PageSection
-        innerProps={{ style: HomeSectionContainerStyles }}
-        background={theme.colors.background}
-        index={2}
-        hasCurvedDivider={false}
-      >
         <Footer />
       </PageSection>
+     
     </>
   )
 }
