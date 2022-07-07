@@ -24,7 +24,7 @@ const Home: React.FC = () => {
       <PageMeta />            
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
-        background={theme.colors.background}
+        background="linear-gradient(180deg, #7645D9 0%, #5121B1 100%)"        
         index={2}
         hasCurvedDivider={false}
       >
@@ -33,7 +33,7 @@ const Home: React.FC = () => {
       </PageSection>
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
-        background="linear-gradient(180deg, #7645D9 0%, #5121B1 100%)"
+        background={theme.colors.background}
         index={2}
         hasCurvedDivider={false}
       >
