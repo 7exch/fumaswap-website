@@ -36,7 +36,7 @@ const Stats = () => {
   return (
     <Flex justifyContent="center" alignItems="center" flexDirection="column">
 
-      <img className="navbar_logo" src="https://cdn.jsdelivr.net/gh/Man-from-earth25/fiverr-milkyswap-website/fumaswap.png" alt="l" />   
+      <img className="navbar_logo" src="https://cdn.jsdelivr.net/gh/7exch/fumaswap-website/fumaswap.png" alt="l" />   
       <Heading textAlign="center" scale="xl">
         {t('Used by millions.')}
       </Heading>
