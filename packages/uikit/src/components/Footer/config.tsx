@@ -116,7 +116,7 @@ export const socials = [
       },
       {
         label: "Português",
-        href: https://t.me/fumaforce",
+        href: "https://t.me/fumaforce",
       },
       {
         label: "Español",
