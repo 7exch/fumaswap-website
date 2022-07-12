@@ -32,11 +32,7 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
       {
         label: t('Swap'),
         href: '/swap',
-      },      
-      {
-        label: t('Liquidity'),
-        href: '/liquidity',
-      },
+      },     
       {
         label: t('Prediction'),
         href: `https://khiladi.net`,
