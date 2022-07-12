@@ -111,11 +111,7 @@ const Footer = () => {
         </Text>
         <Text mb="24px" bold color="white">
           {t('No registration needed.')}
-        </Text>
-
-        <Link external href="https://docs.pancakeswap.finance/">
-          {t('Learn how to start')}
-        </Link>
+        </Text>       
         {!account && <ConnectWalletButton mt="24px" />}
       </Wrapper>
     </>
