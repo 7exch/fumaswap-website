@@ -56,16 +56,10 @@ export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
   ),
   reverse: false,
   primaryButton: {
-    to: '/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+    to: '/swap?outputCurrency=0x62f06ad3ebda0a6322df7bfe0870348577491ba1',
     text: t('Buy CAKE'),
     external: false,
-  },
-  secondaryButton: {
-    to: 'https://docs.pancakeswap.finance/tokenomics/cake',
-    text: t('Learn'),
-    external: true,
-  },
-
+  },  
   images: {
     path: '/images/home/cake/',
     attributes: [
