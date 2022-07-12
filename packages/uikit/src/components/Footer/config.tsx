@@ -157,17 +157,7 @@ export const socials = [
     label: "Instagram",
     icon: InstagramIcon,
     href: "https://instagram.com/pancakeswap_official",
-  },
-  {
-    label: "Facebook",
-    icon: FacebookIcon,
-    href: "https://www.facebook.com/FumaFinance-106605438452591",
-  },
-  {
-    label: "YouTube",
-    icon: YoutubeIcon,
-    href: "https://www.youtube.com/channel/UCb5K997cVowyElzeJSe-Dbw/featured",
-  },
+  },  
   {
     label: "Medium",
     icon: MediumIcon,
