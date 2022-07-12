@@ -52,7 +52,11 @@ function MyApp(props: AppProps) {
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=5, minimum-scale=1, viewport-fit=cover"
         />
-       <title>Fumaswap</title>
+         <meta
+          name="description"
+          content="FUMA SWAP is designed by FUMA finance community. Swap any BEP20 Tokens instantly. Multichan Swap feature is coming shortly."
+        />
+       <title>FUMA: SWAP any BEP20 Token</title>
        
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/7exch/fumaswap-website/milkyswap_config_110.css"/>
         
