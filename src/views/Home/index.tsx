@@ -10,11 +10,28 @@ import { swapSectionData, earnSectionData, cakeSectionData } from './components/
 import Footer from './components/Footer'
 import CakeDataRow from './components/CakeDataRow'
 import { WedgeTopLeft, InnerWedgeWrapper, OuterWedgeWrapper, WedgeTopRight } from './components/WedgeSvgs'
+import UserBanner from './components/UserBanner'
+import MultipleBanner from './components/Banners/MultipleBanner'
 
 const Home: React.FC = () => {
   const { theme } = useTheme()
   const { account } = useWeb3React()
+  
+  const UserBannerWrapper = styled(Container)`
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding-left: 0px;
+  padding-right: 0px;
 
+  ${({ theme }) => theme.mediaQueries.lg} {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+`
   const HomeSectionContainerStyles = { margin: '0', width: '100%', maxWidth: '968px' }
 
   const { t } = useTranslation()
@@ -22,7 +39,7 @@ const Home: React.FC = () => {
   return (
     <>
       <PageMeta />  
-       
+      <MultipleBanner />
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         background={theme.colors.background}       
