@@ -80,7 +80,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: TwitterIcon,
-    href: "https://twitter.com/pancakeswap",
+    href: "https://twitter.com/fumafinance",
   },
   {
     label: "Telegram",
@@ -88,70 +88,70 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/pancakeswap",
+        href: "https://t.me/fumaforce",
       },
       {
         label: "Bahasa Indonesia",
-        href: "https://t.me/PancakeSwapIndonesia",
+        href: "https://t.me/fumaforce",
       },
       {
         label: "中文",
-        href: "https://t.me/PancakeSwap_CN",
+        href: "https://t.me/fumaforce",
       },
       {
         label: "Tiếng Việt",
-        href: "https://t.me/PancakeSwapVN",
+        href: "https://t.me/fumaforce",
       },
       {
         label: "Italiano",
-        href: "https://t.me/pancakeswap_ita",
+        href: "https://t.me/fumaforce",
       },
       {
         label: "русский",
-        href: "https://t.me/pancakeswap_ru",
+        href: "https://t.me/fumaforce",
       },
       {
         label: "Türkiye",
-        href: "https://t.me/pancakeswapturkiye",
+        href: "https://t.me/fumaforce",
       },
       {
         label: "Português",
-        href: "https://t.me/PancakeSwapPortuguese",
+        href: https://t.me/fumaforce",
       },
       {
         label: "Español",
-        href: "https://t.me/PancakeswapEs",
+        href: "https://t.me/fumaforce",
       },
       {
         label: "日本語",
-        href: "https://t.me/pancakeswapjp",
+        href: "https://t.me/fumaforce",
       },
       {
         label: "Français",
-        href: "https://t.me/pancakeswapfr",
+        href: "https://t.me/fumaforce",
       },
       {
         label: "Deutsch",
-        href: "https://t.me/PancakeSwap_DE",
+        href: "https://t.me/fumaforce",
       },
       {
         label: "Filipino",
-        href: "https://t.me/Pancakeswap_Ph",
+        href: "https://t.me/fumaforce",
       },
       {
         label: "ქართული ენა",
-        href: "https://t.me/PancakeSwapGeorgia",
+        href: "https://t.me/fumaforce",
       },
       {
         label: "Announcements",
-        href: "https://t.me/PancakeSwapAnn",
+        href: "https://t.me/fumaforce",
       },
     ],
   },
   {
     label: "Reddit",
     icon: RedditIcon,
-    href: "https://reddit.com/r/pancakeswap",
+    href: "https://www.reddit.com/r/fumafinance",
   },
   {
     label: "Instagram",
@@ -159,19 +159,19 @@ export const socials = [
     href: "https://instagram.com/pancakeswap_official",
   },
   {
-    label: "Github",
-    icon: GithubIcon,
-    href: "https://github.com/pancakeswap/",
+    label: "Facebook",
+    icon: FacebookIcon,
+    href: "https://www.facebook.com/FumaFinance-106605438452591",
   },
   {
-    label: "Discord",
-    icon: DiscordIcon,
-    href: "https://discord.gg/pancakeswap",
+    label: "YouTube",
+    icon: YoutubeIcon,
+    href: "https://www.youtube.com/channel/UCb5K997cVowyElzeJSe-Dbw/featured",
   },
   {
     label: "Medium",
     icon: MediumIcon,
-    href: "https://pancakeswap.medium.com/",
+    href: "https://fumafinance.medium.com/",
   },
 ];
 
