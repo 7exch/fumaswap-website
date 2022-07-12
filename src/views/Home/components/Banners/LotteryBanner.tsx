@@ -83,18 +83,6 @@ const LotteryPrice: React.FC = () => {
   }
   return null
 }
-
-const LotteryCountDownTimer = () => {
-  const { data } = useSWR<LotteryResponse>(['currentLottery'])
-  const endTimeAsInt = parseInt(data.endTime, 10)
-  const { nextEventTime } = useGetNextLotteryEvent(endTimeAsInt, data.status)
-  const secondsRemaining = useNextEventCountdown(nextEventTime)
-  const { days, hours, minutes, seconds } = getTimePeriods(secondsRemaining)
-  if (isLotteryLive(data.status))
-    return <Timer wrapperClassName="custom-timer" seconds={seconds} minutes={minutes} hours={hours} days={days} />
-  return null
-}
-
 const LotteryBanner = () => {
   const { t } = useTranslation()
   const { isDesktop } = useMatchBreakpointsContext()
@@ -109,9 +97,7 @@ const LotteryBanner = () => {
               <StyledSubheading style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }}>
                 <LotteryPrice />
               </StyledSubheading>
-              <TimerWrapper>
-                <LotteryCountDownTimer />
-              </TimerWrapper>
+             
             </>
           ) : (
             <>
