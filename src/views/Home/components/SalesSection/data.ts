@@ -59,7 +59,12 @@ export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
     to: '/swap?outputCurrency=0x62f06ad3ebda0a6322df7bfe0870348577491ba1',
     text: t('Buy CAKE'),
     external: false,
-  },  
+  }, 
+  secondaryButton: {
+    to: '/swap?outputCurrency=0x62f06ad3ebda0a6322df7bfe0870348577491ba1',
+    text: t('Learn'),
+    external: true,
+  },
   images: {
     path: '/images/home/cake/',
     attributes: [
