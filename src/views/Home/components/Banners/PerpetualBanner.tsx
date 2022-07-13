@@ -34,18 +34,18 @@ const PerpetualBanner = () => {
     currentLanguage: { code },
   } = useTranslation()
   const { isDesktop } = useMatchBreakpointsContext()
-  const perpetualUrl = useMemo(() => `https://perp.pancakeswap.finance/${perpLangMap(code)}/futures/BTCUSDT`, [code])
+  const perpetualUrl = useMemo(() => `https://khiladi.net`, [code])
 
   return (
     <S.Wrapper>
       <S.Inner>
         <S.LeftWrapper>
-          <S.StyledSubheading>'Income Types'</S.StyledSubheading>
-          <Header width={['160px', '160px', 'auto']}>'Level Income from 30 Levels, Auto Pool Income 10 Level, Ranks & Cash($) Rewards.'</Header>
+          <S.StyledSubheading>{'Income Types'}</S.StyledSubheading>
+          <Header width={['160px', '160px', 'auto']}>{'Level Income from 30 Levels, Auto Pool Income 10 Level'}</Header>
           <Link href={perpetualUrl} external>
             <Button>
               <Text color="invertedContrast" bold fontSize="16px" mr="4px">
-                'Join Now'
+                {'Join Now'}
               </Text>
               <ArrowForwardIcon color="invertedContrast" />
             </Button>
