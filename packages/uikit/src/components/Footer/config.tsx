@@ -156,7 +156,7 @@ export const socials = [
   {
     label: "Instagram",
     icon: InstagramIcon,
-    href: "https://instagram.com/pancakeswap_official",
+    href: "https://www.facebook.com/FumaFinance-106605438452591",
   },  
   {
     label: "Medium",
