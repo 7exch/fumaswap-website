@@ -95,7 +95,7 @@ const defaultProps = {
   globalMenu: <GlobalMenuComponent />,
   activeItem: "/swap",
   activeSubItem: "https://www.fumaswap.com",
-  buyCakeLabel: "Buy FUMA",
+  buyCakeLabel: "Buy CAKE",
 };
 
 const ConnectedTemplate: React.FC<NavProps> = (args) => {
@@ -198,7 +198,7 @@ export const NotConnected: React.FC = () => {
         subLinks={links[0].items as SubMenuItemsType[]}
         footerLinks={footerLinks}
         activeItem="/swap"
-        activeSubItem="https://exchange.pancakeswap.finance"
+        activeSubItem="https://fumaswap.com"
         buyCakeLabel="Buy CAKE"
       >
         <div>
@@ -232,7 +232,7 @@ export const WithoutConnectButton: React.FC = () => {
         subLinks={links[0].items as SubMenuItemsType[]}
         activeItem="/swap"
         activeSubItem="https://www.fumaswap.com"
-        buyCakeLabel="Buy FUMA"
+        buyCakeLabel="Buy CAKE"
       >
         <div>
           <h1>No connect button on top</h1>
@@ -258,7 +258,7 @@ export const WithSubmenuSelected: React.FC = () => {
         footerLinks={footerLinks}
         activeItem="/swap"
         activeSubItem="https://www.fumaswap.com"
-        buyCakeLabel="Buy FUMA"
+        buyCakeLabel="Buy CAKE"
       >
         <div>
           <Heading as="h1" mb="8px">
