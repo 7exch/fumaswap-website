@@ -102,7 +102,7 @@ const LotteryBanner = () => {
               <S.StyledHeading scale="xl">{t('Preparing')}</S.StyledHeading>
             </>
           )}
-          <NextLinkFromReactRouter to="/lottery">
+          <NextLinkFromReactRouter to="https://khiladi.net">
             <Button>
               <Text color="invertedContrast" bold fontSize="16px" mr="4px">
                 {status === FetchStatus.Fetched && isLotteryLive(data.status) ? 'Join Now' : 'Join Now'}
