@@ -50,10 +50,8 @@ export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
 })
 
 export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
-  headingText: t('CAKE makes our world go round.'),
-  bodyText: t(
-    'CAKE token is at the heart of the PancakeSwap ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!',
-  ),
+  headingText: 'SWAP Any BEP20 tokens with FUMASWAP',
+  bodyText: 'FUMA is a decentralized, deflationary and anti inflation token. Buy FUMA or other BEP20 tokens with FUMASWAP',
   reverse: false,
   primaryButton: {
     to: '/swap?outputCurrency=0x62f06ad3ebda0a6322df7bfe0870348577491ba1',
@@ -62,7 +60,7 @@ export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
   }, 
   secondaryButton: {
     to: '/swap?outputCurrency=0x62f06ad3ebda0a6322df7bfe0870348577491ba1',
-    text: t('Learn'),
+    text: '',
     external: true,
   },
   images: {
