@@ -73,10 +73,7 @@ const LotteryPrice: React.FC = () => {
       <>
         {prizeInBusd.isNaN() ? (
           <Skeleton height={20} width={90} display="inline-block" />
-        ) : (
-          t('Win $%prize% in Lottery', {
-            prize: prizeTotal.toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 0 }),
-          })
+        ) : ('Level Plan 3x3 & global auto pool.'          
         )}
       </>
     )
@@ -108,7 +105,7 @@ const LotteryBanner = () => {
           <NextLinkFromReactRouter to="/lottery">
             <Button>
               <Text color="invertedContrast" bold fontSize="16px" mr="4px">
-                {status === FetchStatus.Fetched && isLotteryLive(data.status) ? t('Play Now') : t('Check Now')}
+                {status === FetchStatus.Fetched && isLotteryLive(data.status) ? 'Join Now' : 'Join Now'}
               </Text>
               <ArrowForwardIcon color="invertedContrast" />
             </Button>
