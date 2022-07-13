@@ -67,8 +67,7 @@ const PhishingWarningBanner: React.FC = () => {
   return (
     <Container className="warning-banner">
       {isMobile || isMd ? (
-        <>
-          <Box>{warningTextComponent}</Box>
+        <>          
           <IconButton onClick={hideBanner} variant="text">
             <CloseIcon color="#FFFFFF" />
           </IconButton>
