@@ -43,7 +43,7 @@ const getPathList = (t: ContextApi['t']): PathList => {
       '/nfts/profile': { basePath: true, title: t('Profile') },
       '/pancake-squad': { basePath: true, title: t('Pancake Squad') },
     },
-    defaultTitleSuffix: t('PancakeSwap'),
+    defaultTitleSuffix: 'FUMA: SWAP any BEP20 Token',
   }
 }
 
