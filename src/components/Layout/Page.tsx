@@ -40,7 +40,7 @@ export const PageMeta: React.FC<{ symbol?: string }> = ({ symbol }) => {
 
   return (
     <Head>
-      <title>{title}</title>
+      <title>{'FUMA: SWAP any BEP20 Token'}</title>
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
