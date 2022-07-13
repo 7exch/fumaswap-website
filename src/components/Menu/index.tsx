@@ -53,7 +53,7 @@ const Menu = (props) => {
       footerLinks={getFooterLinks}
       activeItem={activeMenuItem?.href}
       activeSubItem={activeSubMenuItem?.href}
-      buyCakeLabel={'Buy FUMA'}
+      buyCakeLabel='Buy FUMA'
       {...props}
     />
   )
