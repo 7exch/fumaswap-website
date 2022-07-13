@@ -35,12 +35,12 @@ export const PageMeta: React.FC<{ symbol?: string }> = ({ symbol }) => {
   const { title, description, image } = { ...DEFAULT_META, ...pageMeta }
   let pageTitle = cakePriceUsdDisplay ? [title, cakePriceUsdDisplay].join(' - ') : title
   if (symbol) {
-    pageTitle = [symbol, title].join(' - ')
+    pageTitle =[title]
   }
 
   return (
     <Head>
-      <title>'FUMA SWAP any BEP20 Token'</title>
+      <title>{pageTitle}</title>
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
