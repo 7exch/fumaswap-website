@@ -53,15 +53,7 @@ const Footer: React.FC<{ variant?: FooterVariant; helpUrl?: string }> = ({
             {t('V1 (old)')}
           </ButtonMenuItem>
         </ButtonMenu>
-        <LinkExternal
-          id="ercBridge"
-          href="https://fuma.finance"
-          ml={[0, 0, '40px']}
-          mt={['20px', '20px', isSide ? '20px' : 0]}
-          mb={['8px', '8px', 0]}
-        >
-          {t('Convert ERC-20 to BEP-20')}
-        </LinkExternal>
+       
       </Flex>
       {isSide && <Flex flexGrow={1} />}
       
