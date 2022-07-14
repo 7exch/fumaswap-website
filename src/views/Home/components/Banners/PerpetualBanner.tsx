@@ -41,7 +41,7 @@ const PerpetualBanner = () => {
       <S.Inner>
         <S.LeftWrapper>
           <S.StyledSubheading>{'Income Types'}</S.StyledSubheading>
-          <Header width={['160px', '160px', 'auto']}>{'Level Income from 30 Levels, Auto Pool Income 10 Level'}</Header>
+          <Header width={['160px', '160px', 'auto']}>{'Level Income, Auto Pool & Rewards'}</Header>
           <Link href={perpetualUrl} external>
             <Button>
               <Text color="invertedContrast" bold fontSize="16px" mr="4px">
