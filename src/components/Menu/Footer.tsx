@@ -46,9 +46,20 @@ const Footer: React.FC<{ variant?: FooterVariant; helpUrl?: string }> = ({
   const isSide = variant === 'side'
   return (
     <Wrapper $isSide={isSide}>
-      
-    
-     
+      <Flex flexDirection={isSide ? 'column' : ['column', 'column', 'row']} alignItems="center">
+        
+        
+      </Flex>
+      {isSide && <Flex flexGrow={1} />}
+      <Flex
+        flexGrow={isSide ? 0 : 1}
+        alignItems="center"
+        width={['100%', '100%', '100%', isSide ? '100%' : 'auto']}
+        justifyContent={['center', 'center', 'center', 'flex-end']}
+      >
+       
+          
+      </Flex>
     </Wrapper>
   )
 }
