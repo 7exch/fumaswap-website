@@ -47,19 +47,24 @@ const Footer: React.FC<{ variant?: FooterVariant; helpUrl?: string }> = ({
   return (
     <Wrapper $isSide={isSide}>
       <Flex flexDirection={isSide ? 'column' : ['column', 'column', 'row']} alignItems="center">
-        
-        
+        <ButtonMenu variant="subtle" scale="sm" activeIndex={0}>
+          <ButtonMenuItem>V2</ButtonMenuItem>
+          <ButtonMenuItem as="a" href="#">
+            {t('V1 (old)')}
+          </ButtonMenuItem>
+        </ButtonMenu>
+        <LinkExternal
+          id="ercBridge"
+          href="https://fuma.finance/"
+          ml={[0, 0, '40px']}
+          mt={['20px', '20px', isSide ? '20px' : 0]}
+          mb={['8px', '8px', 0]}
+        >
+          'Fuma Finance'
+        </LinkExternal>
       </Flex>
       {isSide && <Flex flexGrow={1} />}
-      <Flex
-        flexGrow={isSide ? 0 : 1}
-        alignItems="center"
-        width={['100%', '100%', '100%', isSide ? '100%' : 'auto']}
-        justifyContent={['center', 'center', 'center', 'flex-end']}
-      >
-       
-          
-      </Flex>
+      
     </Wrapper>
   )
 }
