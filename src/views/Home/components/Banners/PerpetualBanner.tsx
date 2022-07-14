@@ -34,7 +34,7 @@ const PerpetualBanner = () => {
     currentLanguage: { code },
   } = useTranslation()
   const { isDesktop } = useMatchBreakpointsContext()
-  const perpetualUrl = useMemo(() => `https://khiladi.net`, [code])
+  const perpetualUrl = useMemo(() => `https://fumaforce.com`, [code])
 
   return (
     <S.Wrapper>
