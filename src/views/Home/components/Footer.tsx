@@ -66,8 +66,6 @@ const topLeftImage = {
   path: '/images/home/flying-pancakes/',
   attributes: [
     { src: '1-bottom', alt: 'Pancake flying on the bottom' },
-    { src: '1-left', alt: 'Pancake flying on the left' },
-    { src: '1-top', alt: 'Pancake flying on the top' },
   ],
 }
 
@@ -96,10 +94,7 @@ const Footer = () => {
         <FloatingPancakesWrapper>
           <TopLeftImgWrapper>
             <CompositeImage {...topLeftImage} maxHeight="256px" />
-          </TopLeftImgWrapper>
-          <BottomRightImgWrapper>
-            <CompositeImage {...bottomRightImage} maxHeight="256px" />
-          </BottomRightImgWrapper>
+          </TopLeftImgWrapper>         
         </FloatingPancakesWrapper>
       )}
       <Wrapper>
