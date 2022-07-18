@@ -55,7 +55,7 @@ const Stats = () => {
       </Flex>
 
       <Text textAlign="center" color="textSubtle" bold mb="32px">
-        {<script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#00d084" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>}
+        {t('Will you join them?')}
       </Text>
 
       <Flex flexDirection={['column', null, null, 'row']}>
