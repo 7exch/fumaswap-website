@@ -7,6 +7,7 @@ import { PageMeta } from 'components/Layout/Page'
 import { useTranslation } from 'contexts/Localization'
 import SalesSection from './components/SalesSection'
 import { swapSectionData, earnSectionData, cakeSectionData } from './components/SalesSection/data'
+import WinSection from './components/WinSection'
 import Footer from './components/Footer'
 import CakeDataRow from './components/CakeDataRow'
 import { WedgeTopLeft, InnerWedgeWrapper, OuterWedgeWrapper, WedgeTopRight } from './components/WedgeSvgs'
@@ -40,6 +41,18 @@ const Home: React.FC = () => {
     <>
       <PageMeta />  
       <MultipleBanner />
+      <PageSection
+        innerProps={{ style: HomeSectionContainerStyles }}
+        background={
+          theme.isDark
+            ? 'linear-gradient(180deg, #0B4576 0%, #091115 100%)'
+            : 'linear-gradient(180deg, #6FB6F1 0%, #EAF2F6 100%)'
+        }
+        index={2}
+        hasCurvedDivider={false}
+      >
+        <WinSection />
+      </PageSection>
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         background={theme.colors.background}       
