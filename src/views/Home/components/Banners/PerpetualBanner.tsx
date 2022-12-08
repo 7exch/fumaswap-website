@@ -34,7 +34,7 @@ const PerpetualBanner = () => {
     currentLanguage: { code },
   } = useTranslation()
   const { isDesktop } = useMatchBreakpointsContext()
-  const perpetualUrl = useMemo(() => `https://fumaforce.com`, [code])
+  const perpetualUrl = useMemo(() => `https://gainfuma.com/?ref=G610052`, [code])
 
   return (
     <S.Wrapper>
