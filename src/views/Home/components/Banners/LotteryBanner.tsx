@@ -72,7 +72,7 @@ const LotteryPrice: React.FC = () => {
     return (
       <>
         {prizeInBusd.isNaN() ? (
-          <Skeleton height={20} width={auto} display="inline-block" />
+          <Skeleton height={20} width={90} display="inline-block" />
         ) : ('Join FUMA Community, Binary Income Plan.'          
         )}
       </>
