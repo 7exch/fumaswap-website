@@ -50,7 +50,7 @@ const PredictionCardContent = () => {
     <>
       <Flex flexDirection="column" mt="48px">
         <Text color="#280D5F" bold fontSize="16px">
-          {t('Prediction')}
+          {'FUMA Airdrop'}
         </Text>
         {bnbWon ? (
           <PredictionCardHeader preText={pretext} bnbWon={bnbWon} />
@@ -61,17 +61,17 @@ const PredictionCardContent = () => {
           </>
         )}
         <Text color="#280D5F" mb="24px" bold fontSize="16px">
-          {wonSoFar}
+          {'20000 FUMA distributed so far'}
         </Text>
         <Text color="#280D5F" mb="40px">
-          {t('Will BNB price rise or fall? guess correctly to win!')}
+          {'Trade BSC Tokens on FUMASwap. Get FUMA in Airdrop')}
         </Text>
       </Flex>
       <Flex alignItems="center" justifyContent="center">
-        <StyledLink to="/prediction" id="homepage-prediction-cta">
+        <StyledLink to="/swap?outputCurrency=0x62f06ad3ebda0a6322df7bfe0870348577491ba1" id="homepage-prediction-cta">
           <Button width="100%">
             <Text bold color="invertedContrast">
-              {t('Play')}
+              {'BUY'}
             </Text>
             <ArrowForwardIcon ml="4px" color="invertedContrast" />
           </Button>
