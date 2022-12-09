@@ -64,7 +64,7 @@ const PredictionCardContent = () => {
           {'20000 FUMA distributed so far'}
         </Text>
         <Text color="#280D5F" mb="40px">
-          {'Trade BSC Tokens on FUMASwap. Get FUMA in Airdrop')}
+          {'Trade BSC Tokens on FUMASwap. Get FUMA in Airdrop'}
         </Text>
       </Flex>
       <Flex alignItems="center" justifyContent="center">
