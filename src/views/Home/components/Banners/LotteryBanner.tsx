@@ -73,7 +73,7 @@ const LotteryPrice: React.FC = () => {
       <>
         {prizeInBusd.isNaN() ? (
           <Skeleton height={20} width={90} display="inline-block" />
-        ) : ('Join FUMA Community, Binary Income Plan.'          
+        ) : ('Binary Plan.'          
         )}
       </>
     )
@@ -89,7 +89,19 @@ const LotteryBanner = () => {
     <S.Wrapper>
       <S.Inner>
         <S.LeftWrapper>
-          <Header width={['160px', '160px', 'auto']}>{'Join FUMA Community, Binary Income Plan'}</Header>
+          {status === FetchStatus.Fetched && isLotteryLive(data.status) ? (
+            <>
+              <StyledSubheading style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }}>
+                <LotteryPrice />
+              </StyledSubheading>
+             
+            </>
+          ) : (
+            <>
+              <S.StyledSubheading>{t('Lottery')}</S.StyledSubheading>
+              <S.StyledHeading scale="xl">{t('Preparing')}</S.StyledHeading>
+            </>
+          )}
           <NextLinkFromReactRouter to="https://gainfuma.com/?ref=G610052">
             <Button>
               <Text color="invertedContrast" bold fontSize="16px" mr="4px">
