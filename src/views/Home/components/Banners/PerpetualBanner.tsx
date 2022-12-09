@@ -40,7 +40,7 @@ const PerpetualBanner = () => {
     <S.Wrapper>
       <S.Inner>
         <S.LeftWrapper>
-          <S.StyledSubheading>{'Income Types'}</S.StyledSubheading>
+          <S.StyledSubheading>{'FUMA DEFI'}</S.StyledSubheading>
           <Header width={['160px', '160px', 'auto']}>{'Level Income, Auto Pool & Rewards'}</Header>
           <Link href={perpetualUrl} external>
             <Button>
