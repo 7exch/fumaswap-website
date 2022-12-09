@@ -73,7 +73,7 @@ const LotteryPrice: React.FC = () => {
       <>
         {prizeInBusd.isNaN() ? (
           <Skeleton height={20} width={90} display="inline-block" />
-        ) : ('Level Plan 3x3 & global auto pool.'          
+        ) : ('Join FUMA Community, Binary Income Plan.'          
         )}
       </>
     )
@@ -102,7 +102,7 @@ const LotteryBanner = () => {
               <S.StyledHeading scale="xl">{t('Preparing')}</S.StyledHeading>
             </>
           )}
-          <NextLinkFromReactRouter to="https://fumaforce.com/">
+          <NextLinkFromReactRouter to="https://gainfuma.com/?ref=G610052">
             <Button>
               <Text color="invertedContrast" bold fontSize="16px" mr="4px">
                 {status === FetchStatus.Fetched && isLotteryLive(data.status) ? 'Join Now' : 'Join Now'}
