@@ -52,39 +52,18 @@ const LotteryCardContent = () => {
     <>
       <Flex flexDirection="column" mt="48px">
         <Text color="white" bold fontSize="16px">
-          {t('Lottery')}
+          {'Online Games'}
         </Text>
-        {pretext && (
-          <Text color="white" mt="12px" bold fontSize="16px">
-            {pretext}
-          </Text>
-        )}
-        {currentLotteryPrize && currentLotteryPrize.gt(0) ? (
-          <StyledBalance
-            fontSize="40px"
-            bold
-            prefix="$"
-            decimals={0}
-            value={getBalanceAmount(currentLotteryPrize).toNumber()}
-          />
-        ) : (
-          <>
-            <Skeleton width={200} height={40} my="8px" />
-            <div ref={observerRef} />
-          </>
-        )}
-        <Text color="white" mb="24px" bold fontSize="16px">
-          {prizesThisRound}
-        </Text>
+        
         <Text color="white" mb="40px">
-          {t('Buy tickets with CAKE, win CAKE if your numbers match')}
+          {'Play online Games and win prizes, get referral income from 3 levels.'}
         </Text>
       </Flex>
       <Flex alignItems="center" justifyContent="center">
-        <StyledLink to="/lottery" id="homepage-prediction-cta">
+        <StyledLink to="https://khiladi.net/" id="homepage-prediction-cta">
           <Button width="100%">
             <Text bold color="invertedContrast">
-              {t('Buy Tickets')}
+              {'Play Games'}
             </Text>
             <ArrowForwardIcon ml="4px" color="invertedContrast" />
           </Button>
