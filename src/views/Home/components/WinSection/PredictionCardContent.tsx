@@ -51,15 +51,7 @@ const PredictionCardContent = () => {
       <Flex flexDirection="column" mt="48px">
         <Text color="#280D5F" bold fontSize="16px">
           {'FUMA Airdrop'}
-        </Text>
-        {bnbWon ? (
-          <PredictionCardHeader preText={pretext} bnbWon={bnbWon} />
-        ) : (
-          <>
-            <Skeleton width={230} height={40} my="8px" />
-            <div ref={observerRef} />
-          </>
-        )}
+        </Text>        
         <Text color="#280D5F" mb="24px" bold fontSize="16px">
           {'20000 FUMA distributed so far'}
         </Text>
